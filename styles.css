@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#cabeca{
+    background-color:dodgerblue;
+    height: 125px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
