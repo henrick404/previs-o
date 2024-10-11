@@ -5,11 +5,23 @@
 
 
 #cabeca{
-    background-color:dodgerblue;
+    background: linear-gradient(to top, #6d6dff, blue);
     height: 125px;
-    font-size: 35px;
+    font-size: 30px;
+    text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    
+}
+
+#img1{
+    transform: translateX(350px)
+}
+
+#centro{
+    transform: translateX(100px);
+}
+
+#img2{
+    transform: translateX(-850px)
 }
