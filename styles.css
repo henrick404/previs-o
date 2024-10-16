@@ -12,6 +12,9 @@
     align-items: center;
     justify-content: center;
 }
+body{
+    background-color: black;
+ }
 
 #img2{
     position: fixed;

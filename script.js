@@ -16,9 +16,10 @@ envia.addEventListener("click", () => {
             const data = await response.json();
             console.log(data);
 
-            pegaDiv.innerHTML ""
+            pegaDiv.innerHTML = `Resultado:<br><h1>${data.name}</h1><br><h3>${data.weather[0].description}</h3>`;
         }
 
         chamaApi();
     }
+    pesquisa.value = "";
 })
